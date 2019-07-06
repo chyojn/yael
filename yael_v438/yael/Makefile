@@ -2,7 +2,8 @@
 
 include ../makefile.inc
 
-all: libyael.a libyael.$(SHAREDEXT) _yael.so __init__.py
+#all: libyael.a libyael.$(SHAREDEXT) _yael.so __init__.py
+all: libyael.a libyael.$(SHAREDEXT)
 
 
 ifeq "$(USEARPACK)" "yes"
